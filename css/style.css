@@ -1,0 +1,22 @@
+/*-- NAVBAR --*/
+#main-navbar .nav-link {
+    border-bottom: 5px solid #343a40;
+    color: #e2e1e1;
+}
+
+#main-navbar .nav-link:hover,
+#main-navbar a.active {
+    border-bottom: 5px solid #117a8b;
+    color: white;
+}
+
+.main-logo {
+    height: 100px;
+    margin-bottom: -70px;
+    /*SUpaya logo offset ke bawah*/
+}
+
+.small-logo {
+    height: 60px;
+    /*untuk logo kecil di footer*/
+}
