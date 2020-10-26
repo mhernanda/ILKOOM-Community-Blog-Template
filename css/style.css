@@ -75,3 +75,13 @@
 }
 
 /*-- AKHIR EXPLORE --*/
+
+
+/*-- MEMBER SHOWCASE --*/
+#member-showcase img {
+    width: 100px;
+}
+
+#member-showcase img:hover {
+    filter: brightness(130%);
+}
