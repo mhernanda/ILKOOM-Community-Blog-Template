@@ -85,3 +85,14 @@
 #member-showcase img:hover {
     filter: brightness(130%);
 }
+
+/*-- MEMBER SHOWCASE --*/
+
+
+/*-- MEMBER LIST - HALAMAN HOME --*/
+#member-list .card-body img {
+    width: 125px;
+    margin-top: -80px;
+}
+
+/*-- AKHIR MEMBER LIST - HALAMAN HOME --*/
