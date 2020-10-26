@@ -21,6 +21,9 @@
     /*untuk logo kecil di footer*/
 }
 
+/*-- AKHIR NAVBAR --*/
+
+
 /*-- MAIN SLIDER --*/
 #main-navbar {
     z-index: 10;
@@ -53,4 +56,20 @@
 
 #slide4 {
     background-image: url(../img/full-image12.jpg);
+}
+
+/*-- AKHIR MAIN SLIDER --*/
+
+
+/*-- EXPLORE --*/
+#explore {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../img/full-image3.jpg');
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
