@@ -126,4 +126,9 @@
     background-position-y: -200px;
 }
 
+#login-header {
+    background-image: url('../img/full-image10.jpg');
+    background-position-y: -100px;
+}
+
 /*-- AKHIR HEADER IMAGE - Untuk Selain HALAMAN HOME --*/
