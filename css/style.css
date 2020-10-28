@@ -132,3 +132,9 @@
 }
 
 /*-- AKHIR HEADER IMAGE - Untuk Selain HALAMAN HOME --*/
+
+#gallery img:hover {
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: .5s;
+}
