@@ -126,4 +126,9 @@
     background-position-y: -200px;
 }
 
+#gallery-header {
+    background-image: url('../img/full-image2.jpg');
+    background-position-y: -400px;
+}
+
 /*-- AKHIR HEADER IMAGE - Untuk Selain HALAMAN HOME --*/
