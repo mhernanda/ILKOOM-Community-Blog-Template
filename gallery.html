@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="css/ekko-lightbox.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <title>ILKOOM - Community Blog</title>
 </head>
@@ -91,55 +92,55 @@
             <p class="text-center">Check out our photos</p>
             <div class="row mb-4">
 
-                <div class="col-6 col-md-4 mt-4">
+                <div class="col-6 col-md-4 mt-4" data-aos="flip-down">
                     <a href="./img/full-image1.jpg" data-toggle="lightbox" data-gallery="img-gallery">
                         <img src="img/thumbnail1.jpg" alt="" class="img-fluid img-thumbnail">
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 mt-4">
+                <div class="col-6 col-md-4 mt-4" data-aos="flip-down">
                     <a href="./img/full-image2.jpg" data-toggle="lightbox" data-gallery="img-gallery">
                         <img src="img/thumbnail2.jpg" alt="" class="img-fluid img-thumbnail">
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 mt-4">
+                <div class="col-6 col-md-4 mt-4" data-aos="flip-down">
                     <a href="./img/full-image3.jpg" data-toggle="lightbox" data-gallery="img-gallery"> 
                         <img src="img/thumbnail3.jpg" alt="" class="img-fluid img-thumbnail">
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 mt-4">
+                <div class="col-6 col-md-4 mt-4" data-aos="flip-down">
                     <a href="./img/full-image4.jpg" data-toggle="lightbox" data-gallery="img-gallery">
                         <img src="img/thumbnail4.jpg" alt="" class="img-fluid img-thumbnail">
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 mt-4" >
+                <div class="col-6 col-md-4 mt-4" data-aos="flip-down">
                     <a href="./img/full-image5.jpg" data-toggle="lightbox" data-gallery="img-gallery">
                         <img src="img/thumbnail5.jpg" alt="" class="img-fluid img-thumbnail">
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 mt-4">
+                <div class="col-6 col-md-4 mt-4" data-aos="flip-down">
                     <a href="./img/full-image6.jpg" data-toggle="lightbox" data-gallery="img-gallery">
                         <img src="img/thumbnail6.jpg" alt="" class="img-fluid img-thumbnail">
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 mt-4">
+                <div class="col-6 col-md-4 mt-4" data-aos="flip-down">
                     <a href="./img/full-image7.jpg" data-toggle="lightbox" data-gallery="img-gallery">
                         <img src="img/thumbnail7.jpg" alt="" class="img-fluid img-thumbnail">
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 mt-4">
+                <div class="col-6 col-md-4 mt-4" data-aos="flip-down">
                     <a href="./img/full-image8.jpg" data-toggle="lightbox" data-gallery="img-gallery"> 
                         <img src="img/thumbnail8.jpg" alt="" class="img-fluid img-thumbnail">
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 mt-4">
+                <div class="col-6 col-md-4 mt-4" data-aos="flip-down">
                     <a href="./img/full-image9.jpg" data-toggle="lightbox" data-gallery="img-gallery">
                         <img src="img/thumbnail9.jpg" alt="" class="img-fluid img-thumbnail">
                     </a>
@@ -220,10 +221,16 @@
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/ekko-lightbox.js"></script>
+    <script src="js/aos.js"></script>
     <script>
         $(document).on('click', '[data-toggle="lightbox"]',function(e){
             e.preventDefault();
             $(this).ekkoLightbox();
+        });
+        
+        AOS.init({
+            once: true,
+            duration: 800
         });
     </script>
 </body>
